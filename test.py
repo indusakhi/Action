@@ -1,4 +1,5 @@
 #Calculator Class
+import pytest
 
 class Calculator:
     def add(self, a, b):
