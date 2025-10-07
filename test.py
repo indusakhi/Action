@@ -21,8 +21,9 @@ class Calculator:
 
 
 if __name__ == "__main__":
-    add(5,3)
-    subtract(25,8)
-    multiply(5,3)
-    divide(78,9)
+    calc = Calculator()
+    calc.add(5,3)
+    calc.subtract(25,8)
+    calc.multiply(5,3)
+    calc.divide(78,9)
   
