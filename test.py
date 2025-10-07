@@ -1,6 +1,4 @@
 #Calculator Class
-import pytest
-
 class Calculator:
     def add(self, a, b):
         """Return the addition of two numbers."""
@@ -20,11 +18,3 @@ class Calculator:
             raise ValueError("Cannot divide by zero.")
         return a / b
 
-
-if __name__ == "__main__":
-    calc = Calculator()
-    calc.add(5,3)
-    calc.subtract(25,8)
-    calc.multiply(5,3)
-    calc.divide(78,9)
-  
