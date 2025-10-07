@@ -21,7 +21,7 @@ def test_multiplication(calc):
     """Test multiplication method."""
     assert calc.multiply(3, 4) == 12
     
-@pytest.amrk.xfail
+@pytest.mark.xfail
 def test_division(calc):
     """Test division method."""
     assert calc.divide(8, 2) == 4
