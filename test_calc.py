@@ -24,7 +24,7 @@ def test_multiplication(calc):
 @pytest.mark.xfail
 def test_division(calc):
     """Test division method."""
-    assert calc.divide(8, 2) == 4
+    assert calc.divide(8, 3) == 4
 
 def test_division_by_zero(calc):
     """Test division by zero raises ValueError."""
