@@ -1,7 +1,7 @@
 # test_calculator.py
 
 import pytest
-from calculator import Calculator
+from test import Calculator
 
 @pytest.fixture
 def calc():
